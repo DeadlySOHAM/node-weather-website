@@ -1,0 +1,28 @@
+.navbar{
+   width:100% ;
+
+   display: flex ;
+   flex-direction: row ;
+   justify-content: flex-end;
+   align-items: center  ;
+}
+
+.navbar *{
+   font-size: 1.5rem ;
+   text-decoration: none ;
+   color: #888888;
+   padding:1rem ;
+}
+
+
+.navbar *:hover{
+   color: #000000;
+   font-weight: bold;
+}
+
+.navbar *:focus{
+   color: #000000;
+   font-weight: bold;
+   background-color: #cccccc;
+   transition: 500ms ;
+}

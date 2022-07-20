@@ -1,0 +1,22 @@
+
+@keyframes rotate {
+   from {transform: rotate(0deg);}
+   to {transform : rotate(360deg);}
+}
+
+#loading_img{
+   height: 2rem ;
+   width: 2rem ;
+   margin: 2rem ;
+   animation : rotate 1.5s infinite ;
+   border-radius: 50% ;
+   display:none ;
+}
+
+#data{
+   margin:2rem ;
+}
+
+#data *{
+   margin:0.5rem ;
+}

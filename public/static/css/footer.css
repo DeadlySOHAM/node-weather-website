@@ -1,0 +1,11 @@
+.footer{
+   align-self: center ;
+   width: calc( 100% - 2rem ) ;
+   padding : .5rem;
+   margin:1rem ;
+   border-top : .1rem solid #888888 ;
+   font-size : 2rem ;
+   color : #888888 ;
+   position:fixed ;
+   bottom:0px;
+}

@@ -1,0 +1,7 @@
+.page_header{
+   margin:1.5rem;
+   padding-bottom: 0.1rem ;
+   border-bottom: 0.1rem solid #bbbbbb ;
+   align-self: flex-start;
+   font-size: 4rem ;
+}
