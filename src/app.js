@@ -134,7 +134,7 @@ app.get('*',(req,res)=>{
 
 // this starts the server .
 // listen(port,ip:String,callback)
-app.listen(PORT,'192.168.42.72',()=>{
+app.listen(PORT,()=>{
    // clears the terminal everytime the app.js is executed by nodemon , thereby keeping the terminal clean and tidy.
    console.clear();
    console.log("Server Started at : http://192.168.42.72:3000") ;
