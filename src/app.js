@@ -1,3 +1,4 @@
+const settings = require('./setting');
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
@@ -132,7 +133,7 @@ app.get('*',(req,res)=>{
 
 // this starts the server .
 // listen(port,ip:String,callback)
-app.listen(3000,'192.168.42.72',()=>{
+app.listen(settings.PORT,'192.168.42.72',()=>{
    // clears the terminal everytime the app.js is executed by nodemon , thereby keeping the terminal clean and tidy.
    console.clear();
    console.log("Server Started at : http://192.168.42.72:3000") ;
