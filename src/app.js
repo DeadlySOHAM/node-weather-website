@@ -4,6 +4,8 @@ const hbs = require('hbs');
 const forecast = require('./Utils/forecast');
 
 const app = express() ;
+
+const PORT = process.env.PORT || 3000  ;
 const STATIC_DIR = path.join(__dirname,"../public") ;
 const HANDLEBARS_VIEWS_DIR = path.join(__dirname,"../public/templates/views") ;
 const PARITALS_DIR = path.join(__dirname,"../public/templates/partials") ;
@@ -132,7 +134,7 @@ app.get('*',(req,res)=>{
 
 // this starts the server .
 // listen(port,ip:String,callback)
-app.listen(3000,'192.168.42.72',()=>{
+app.listen(PORT,'192.168.42.72',()=>{
    // clears the terminal everytime the app.js is executed by nodemon , thereby keeping the terminal clean and tidy.
    console.clear();
    console.log("Server Started at : http://192.168.42.72:3000") ;
